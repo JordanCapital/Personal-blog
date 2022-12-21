@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+.
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', Arial, Helvetica, sans-serif;;
+}
+
+
+body{
+  margin:0%;
+  box-sizing: border-box;
+  overflow-x:hidden;
+}
+
+.nav{
+  background: white;
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 10vh;
+  overflow: hidden;
+  transition:height 1s ease-in-out;
+}
+
+.nav .nav-brand a{
+  font-size: 1.6rem;
+  font-family: san seriff;
+  padding:1rem 0;
+  display:block;
+  font-size:1.6rem;
+  font-weight:300;
+}
+
+a{
+  text-decoration:none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav .nav-menu{
+  justify-content: space-between;
+}
+.nav .toggle-collapse{
+  position:absolute;
+  top:0%;
+  width:90%;
+  cursor:pointer;
+  display:none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+  display: flex;
+  justify-content: flex-end;
+  padding:1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i{
+  font-size:1.4rem;
+  color:030B0A;
+}
+
+.collapse{
+  height:30rem;
+}
+
+.nav .nav-items{
+  list-style-type: none;
+  display: flex;
+}
+.nav .nav-items .nav-link{
+  padding:1.6rem 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  font-family: Helvetica;
+  font-weight:200;
+}
+
+.nav .nav-items .nav-link:hover{
+  background-color: 2A9D8F;
+}
+
+.nav .nav-items .nav-link:hover a{
+  color: White;
+}
+
+.nav .social{
+  padding: 1.4rem 0;
+}
+
+.nav .social i{
+  padding: 0.3rem;
+}
+.nav .social i:hover{
+  color: 4B7C72;
+}
+
+@media only screen and (max-width:750px){
+  .nav .nav-menu .nav .nav-items{
+   flex-direction:column;
+  }
+  .nav .toggle-collapse{
+    display: initial;
+  }
+}
+
+
