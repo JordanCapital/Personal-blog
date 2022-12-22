@@ -1,6 +1,6 @@
-# Personal-blog
+# Project-blog
 
-  This is Personal project I embarked on building a personal blog using Html,css and a bit of javascript in jsbin. 
+  Project-blog is a personal project I embarked on building a personal blog using Html,css and a bit of javascript in jsbin. 
   The project will not only insanely help me learn and improve my skills radically on these languages and coding at large store
   but also share my insane passion and intrests ranging from programming, AI and machine learning, cryptography, game theory,
   quantum computing, cryptocurrency to biology and metaphysics. As I commence building the project, my micro goal is to acomplish it
